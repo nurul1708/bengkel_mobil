@@ -1,0 +1,120 @@
+app\Http\Controllers\Admin\VehicleController.php:66:        $vechile = Vehicle::findOrFail($id);
+app\Http\Controllers\Admin\VehicleController.php:68:        return view('vehicle.edit', compact('vechile', 'users'), [
+app\Http\Controllers\Admin\VehicleController.php:85:        $vechile = Vehicle::findOrFail($id);
+app\Http\Controllers\Admin\VehicleController.php:86:        $vechile->update($request->all());
+vendor\fakerphp\faker\src\Faker\Provider\cs_CZ\Text.php:3498:mačkal ruku v poryvech bolesti, posilován dotykem té měkké a stařecky lehýnké
+vendor\fakerphp\faker\src\Faker\Provider\cs_CZ\Text.php:4434:to znamená? všichni stojí jako svíce s rukama na švech kalhot a hledí k
+vendor\fakerphp\faker\src\Faker\Provider\de_DE\Address.php:47:        'Vaihingen an der Enz', 'Varel', 'Vaterstetten', 'Vechta', 'Velbert', 'Verden (Aller)', 'Verl', 'Versmold', 'Viernheim', 'Viersen', 'Villingen-Schwenningen', 'Voerde (Niederrhein)', 'Völklingen', 'Vreden',
+vendor\fakerphp\faker\src\Faker\Provider\es_ES\Text.php:21:Cuando tuve edad para meterme de cabeza en los negocios por cuenta propia, con objeto de ganar honradamente algunos cuartos, recuerdo que lucí mi travesura en el muelle, sirviendo de a los muchos ingleses que entonces como ahora nos visitaban. El muelle era una escuela ateniense para despabilarse en pocos años, y yo no fui de los alumnos menos aprovechados en aquel vasto ramo del saber humano, así como tampoco dejé de sobresalir en el merodeo de la fruta, para lo cual ofrecía ancho campo a nuestra iniciativa y altas especulaciones la plaza de San Juan de Dios. Pero quiero poner punto en esta parte de mi historia, pues hoy recuerdo con vergüenza tan grande envilecimiento, y doy gracias a Dios de que me librara pronto de él llevándome por más noble camino.
+vendor\fakerphp\faker\src\Faker\Provider\es_ES\Text.php:121:- Es verdad- dijo mi amo- , que la alianza con Francia nos está haciendo mucho daño, pues si algún provecho resulta es para nuestra aliada, mientras todos los desastres son para nosotros.
+vendor\fakerphp\faker\src\Faker\Provider\es_ES\Text.php:464:Pero venía de improviso a cortar estas consideraciones, la idea de nacionalidad, aquel sistema de islas que yo había forjado, y entonces decía: «Pero ya: esto de que las islas han de querer quitarse unas a otras algún pedazo de tierra, lo echa todo a perder, y sin duda en todas ellas debe de haber hombres muy malos, que son los que arman las guerras para su provecho particular, bien porque son ambiciosos y quieren mandar, bien porque son avaros y anhelan ser ricos. Estos hombres malos son los que engañan a los demás, a todos estos infelices que van a pelear; y para que el engaño sea completo, les impulsan a odiar a otras naciones; siembran la discordia, fomentan la envidia, y aquí tienen ustedes el resultado. Yo estoy seguro- añadí- , de que esto no puede durar: apuesto doble contra sencillo a que dentro de poco los hombres de unas y otras islas se han de convencer de que hacen un gran disparate armando tan terribles guerras, y llegará un día en que se abrazarán, conviniendo todos en no formar más que una sola familia».
+vendor\fakerphp\faker\src\Faker\Provider\es_ES\Text.php:535:«La suerte- dijo- , me ha traído a este buque, y en él estaré hasta que Dios decida si nos salvamos o no. Álava está muy mal; la mayor parte de la oficialidad se halla herida, y aquí puedo prestar algunos servicios. No soy de los que abandonan el peligro: al contrario, le busco desde el 21, y deseo encontrar ocasión de que mi presencia en la escuadra sea de provecho. Si llegas antes que yo, como espero, di a Paca que el buen marino es esclavo de su patria, y que yo he hecho muy bien en venir aquí, y que estoy muy contento de haber venido, y que no me pesa, no señor, no me pesa... al contrario... Dile que se alegrará cuando me vea, y que de seguro mis compañeros me habrían echado de menos si no hubiera venido... ¿Cómo había de faltar? ¿No te parece a ti que hice bien en venir?
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1070:vechten, en hij gaf drie oortjes aan hem, die zijn vriend het ergst
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1091:het vuur en paardenhaar op den vloer. Als het gevecht zoo verwoed en
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1193:kloekste vechters, de schoonste liefjes! Hier ziet Onze Lieve Vrouw
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1211:Op die woorden gingen die onnoozele pelgrims voort te vechten met
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1231:heden 't gevecht dappere strijders telde.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:1262:hen met de horens te doen vechten. Daarna streek hij meer dan een
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:2104:woedend gevecht volgde, daar niemand zijn schoen dadelijk terugvinden
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:2107:Uilenspiegel kwam naar beneden en begoot de vechters, maar niet met
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:3226:buurman. Een nieuw gevecht ontstond, in hetwelk zij elkaar trachtten
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:3228:Tronie hielden de vechtenden van elkaar. En 't regende slagen in de
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:4526:vraatzuchtige snoek met open muil op hem toe. Een woedend gevecht
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:5043:'t gevecht.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:8402:een soldenier, opdat hij vechte voor anderen en zich late dooden
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:8734:luisteren. Weldra hoorde zij ze vechten en een hunner zeggen: "Dat
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:9815:bezig met vechten. Ik vroeg, dat zij zouden uitscheiden om mij eenen
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:12697:Alva weigerde gedurig 't gevecht.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:12703:vroegen als er te vechten viel.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13062:vochten in tweegevecht met alle wapenen, ja zelfs met vuurroeren.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13066:stelde een einde aan 't gevecht en bezocht heel het kamp om zich te
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13346:--Morgen daag ik u uit tot een tweegevecht, antwoordde Riesencraft,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13354:--Dan moet gij purgeeren, in stee van te vechten.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13400:beslisten, dat de twee soldaten te voet zouden vechten, totdat de
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13404:Het gevecht greep plaats in een kleine heide.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13476:altoos brommen of vechten, en zij vervangen het heilig gevecht
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13477:voor het vaderland door het tweegevecht, dat het leger ondermijnt
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13480:maar nimmer verrichtte hij zelf, in gevecht of schermutseling,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13488:misbruik der tweegevechten; heden behaagt het mij hem het hoofd in
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13501:teeken van 't gevecht.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13538:en bood den hertog 't gevecht aan, maar deze weigerde het.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13543:zoon des hertogen, die te midden van het gevecht in het Spaansch riep:
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:13746:met uwe kaken gebruind door 't gevecht. Daar is hij eindelijk, mijn
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:14293:met hunne kruismessen. Na het gevecht, dat zeer wreed in schijn was,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:14860:ortolanen eten. Voor ons de slagen, de gevaren, het gevecht, de regen,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15046:durft komen om tegen hem te vechten met vuisten en voeten. Die mannen
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15051:--Wij nemen het gevecht aan, zeide op zijne beurt Lamme, op
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15058:aan een nakend gevecht en hoopten, met onverholen blijdschap, dat een
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15111:De mannen, vrouwlieden, arbeiders, die van den oever het gevecht
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15319:--Groot voor 't gevecht, antwoordde Uilenspiegel.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15388:door zijnen roem van onoverwinbaren vuistvechter, tot dusverre dat
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15445:bloed, dat in hunne aderen vloeide? Het is preisap geworden. En vechten
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15812:te vechten valt. Met zijn trouwe soldaten en zijn broeder, graaf
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:15841:--Zij behelzen plannen van gevecht en van samenzweering. Ik zal ze den
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:16270:eed sprak van tegen den hertog van Alva te vechten, doch niet tegen
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:17279:Toen de baas Uilenspiegel en Lamme samen aan 't vechten zag, vroeg
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:17298:de vechters.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:19776:voor het gevecht, en wachtten dan den vijand af.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:20400:had, in tweegevecht, met het zweerd. Als men hem zei, dat hij gedood
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:20611:--Welke was de reden van het tweegevecht, waarin Hilbert den dood vond?
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:20721:de schuld van het tweegevecht bekennen, om al zijn andere misdaden
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22012:Toen zij voorbijvoeren, was het gevecht verschrikkelijk op de zee,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22055:En toen het schip in de nevelen verdwenen was, hield het gevecht op
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22101:vuur van de forten. Daar ontstaat een bloedig gevecht; de Geuzen,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22104:gevecht, bij manden in den vloed werpen moet. De forten schieten naar
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22190:vrouwen zelven vechten mede, en Kenau Hasselaar voert heure dappere
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22345:op tegen die van het Westen. En zij vechten tegen hen in de wolken;
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22443:de misse der Geuzen, dat is het gevecht!
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22788:voor het geval dat zij buiten en rondom de schepen moesten vechten,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:22805:in afwachting van het uur van 't gevecht.
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:23371:en gevecht? Gauw wat, of ik jaag u voort met eene spoor op de punt
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:23616:hoofdmannen heeft, die het naar het gevecht brengen en naar de zege,
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:23640:trouwen en wakkeren hoofdman, die hen zou brengen naar het gevecht
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:24892:elkander gezeten, koutten zij over de harde gevechten, de schoone
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:24947:de zielen der arme mannen, die gedood werden in de gevechten, het
+vendor\fakerphp\faker\src\Faker\Provider\nl_BE\Text.php:25109:de weerwraak van de onnutte gevechten, van het in de gevangenissen
+vendor\fakerphp\faker\src\Faker\Provider\nl_NL\Address.php:79:        'Laag Zuthem', 'Laag-Keppel', 'Laag-Soeren', 'Lage Mierde', 'Lage Vuursche', 'Lage Zwaluwe', 'Lageland', 'Lambertschaag', 'Lamswaarde', 'Landerum', 'Landgraaf', 'Landhorst', 'Landsmeer', 'Langbroek', 'Langedijke', 'Langelille', 'Langelo', 'Langenboom', 'Langerak', 'Langeveen', 'Langeweg', 'Langezwaag', 'Langweer', 'Laren', 'Laren', 'Lathum', 'Lattrop-Breklenkamp', 'Lauwersoog', 'Lauwerzijl', 'Ledeacker', 'Leek', 'Leende', 'Leens', 'Leerbroek', 'Leerdam', 'Leermens', 'Leersum', 'Leeuwarden', 'Leeuwarden', 'Legemeer', 'Leiden', 'Leiderdorp', 'Leidschendam', 'Leimuiden', 'Leimuiden', 'Leimuiderbrug', 'Lekkerkerk', 'Lekkum', 'Lellens', 'Lelystad', 'Lemele', 'Lemelerveld', 'Lemiers', 'Lemmer', 'Lengel', 'Lent', 'Leons', 'Lepelstraat', 'Lettelbert', 'Lettele', 'Leunen', 'Leur', 'Leusden', 'Leuth', 'Leutingewolde', 'Leuvenheim', 'Leveroy', 'Lewedorp', 'Lexmond', 'Lichtaard', 'Lichtenvoorde', 'Liempde', 'Lienden', 'Lierderholthuis', 'Lieren', 'Lierop', 'Lies', 'Lieshout', 'Liessel', 'Lievelde', 'Lieveren', 'Lijnden', 'Limbricht', 'Limmen', 'Linde', 'Linden', 'Linne', 'Linschoten', 'Lioessens', 'Lippenhuizen', 'Lisse', 'Lisserbroek', 'Lith', 'Lithoijen', 'Lobith', 'Lochem', 'Loenen aan de Vecht', 'Loenen', 'Loenersloot', 'Loerbeek', 'Lollum', 'Lomm', 'Longerhouw', 'Loo Gld', 'Loo Gld', 'Loon op Zand', 'Loon', 'Loosbroek', 'Loosdrecht', 'Loozen', 'Lopik', 'Lopikerkapel', 'Loppersum', 'Losdorp', 'Losser', 'Lottum', 'Loënga', 'Lucaswolde', 'Luddeweer', 'Luinjeberd', 'Lunteren', 'Lutjebroek', 'Lutjegast', 'Lutjewinkel', 'Luttelgeest', 'Lutten', 'Luttenberg', 'Luxwoude', 'Luyksgestel', 'Lytsewierrum',
+vendor\fakerphp\faker\src\Faker\Provider\nl_NL\Address.php:81:        'Naaldwijk', 'Naarden', 'Nagele', 'Nederasselt', 'Nederhemert', 'Nederhorst den Berg', 'Nederland', 'Nederweert', 'Nederweert-Eind', 'Neede', 'Neer', 'Neerijnen', 'Neeritter', 'Neerkant', 'Neerlangel', 'Neerloon', 'Nes (Ameland)', 'Nes (Boornsterhem)', 'Nes (Dongeradeel)', 'Netersel', 'Netterden', 'Niawier', 'Nibbixwoud', 'Niebert', 'Niehove', 'Niekerk', 'Niekerk', 'Nietap', 'Nieuw Annerveen', 'Nieuw Beerta', 'Nieuw Heeten', 'Nieuw Namen', 'Nieuw Scheemda', 'Nieuw- en Sint Joosland', 'Nieuw-Amsterdam', 'Nieuw-Balinge', 'Nieuw-Beijerland', 'Nieuw-Buinen', 'Nieuw-Dordrecht', 'Nieuw-Lekkerland', 'Nieuw-Roden', 'Nieuw-Schoonebeek', 'Nieuw-Vennep', 'Nieuw-Vossemeer', 'Nieuw-Weerdinge', 'Nieuwaal', 'Nieuwdorp', 'Nieuwe Niedorp', 'Nieuwe Pekela', 'Nieuwe Wetering', 'Nieuwe-Tonge', 'Nieuwebrug', 'Nieuwediep', 'Nieuwegein', 'Nieuwehorne', 'Nieuwendijk', 'Nieuwer Ter Aa', 'Nieuwerbrug aan den Rijn', 'Nieuwerkerk aan den IJssel', 'Nieuwerkerk', 'Nieuweroord', 'Nieuweroord', 'Nieuwersluis', 'Nieuweschoot', 'Nieuwkoop', 'Nieuwkuijk', 'Nieuwland', 'Nieuwlande Coevorden', 'Nieuwlande', 'Nieuwleusen', 'Nieuwolda', 'Nieuwpoort', 'Nieuwstadt', 'Nieuwveen', 'Nieuwvliet', 'Niezijl', 'Niftrik', 'Nigtevecht', 'Nij Altoenae', 'Nij Beets', 'Nijbroek', 'Nijeberkoop', 'Nijega', 'Nijehaske', 'Nijeholtpade', 'Nijeholtwolde', 'Nijelamer', 'Nijemirdum', 'Nijensleek', 'Nijetrijne', 'Nijeveen', 'Nijhuizum', 'Nijkerk', 'Nijkerkerveen', 'Nijland', 'Nijlande', 'Nijmegen', 'Nijverdal', 'Nispen', 'Nisse', 'Nistelrode', 'Noardburgum', 'Nooitgedacht', 'Noorbeek', 'Noord-Scharwoude', 'Noord-Sleen', 'Noordbeemster', 'Noordbroek', 'Noordeinde Gld', 'Noordeinde', 'Noordeloos', 'Noorden', 'Noordgouwe', 'Noordhoek', 'Noordhorn', 'Noordlaren', 'Noordscheschut', 'Noordwelle', 'Noordwijk', 'Noordwijk', 'Noordwijkerhout', 'Noordwolde', 'Noordwolde', 'Nootdorp', 'Norg', 'Notter', 'Nuenen', 'Nuis', 'Nuland', 'Numansdorp', 'Nunhem', 'Nunspeet', 'Nuth', 'Nutter',
+vendor\fakerphp\faker\src\Faker\Provider\ro_MD\Text.php:214:despre care ți-am vorbit sunt vechi și ponosite, și armele
+vendor\fakerphp\faker\src\Faker\Provider\ro_MD\Text.php:273:un frâu, un bici și o șa, toate colbăite, sfarogite și vechi ca
+vendor\fakerphp\faker\src\Faker\Provider\ro_MD\Text.php:275:foarte vechi, un arc, niște săgeți, un paloș și un buzdugan,
+vendor\fakerphp\faker\src\Faker\Provider\ro_RO\Text.php:115:Pasămite, Neghiniţă îi intrase într-o ureche. Azi aşa, mâine aşa, până nu mai avu încotro. Sparse sfatul cel vechi şi chemă altul nou.
+vendor\fakerphp\faker\src\Faker\Provider\ro_RO\Text.php:127: - Ci taci, măria-ta! Adică ce slăvire? Toată viaţa, ba războaie, ba sfaturi, ba taie capul unuia, ba întinde la bice pe altul, ba citeşte jalbele, ba ascultă păsurile, ba câte şi mai câte, şi mai multe fără să vrei de câte pe vrute. Mărire să fi fost asta? Dar ia gândeşte-te măria-ta că un supus era supusul măriei-tale ş-avea un stăpân, iar măria-ta, purtând grija tuturora, erai sluga tuturora. Vezi, de-aia măria-ta ai fost cel mai slugă, cel mai nevolnic din toată împărăţia. Curată socoteală: erai împărat, nu om; acum eşti om, nu împărat. Şi eşti mai mare, că unde-ţi spune gândul, acolo te duc picioarele. Ş-apoi, cine ştie? Socoteşti măria-ta că boierii pot ceva fără prostime? Să ceară prostimea pe vechiul lor împărat… şi să vezi măria-ta…
+vendor\fakerphp\faker\src\Faker\Provider\sk_SK\Address.php:260:        'Vavrečka', 'Vavrinec', 'Vavrišovo', 'Važec', 'Včelince', 'Večelkov', 'Vechec', 'Velčice', 'Veličná', 'Velušovce', 'Veľaty',
+vendor\laravel\framework\src\Illuminate\Broadcasting\Broadcasters\Broadcaster.php:333:        $options = $this->retrieveChannelOptions($channel);
+vendor\laravel\framework\src\Illuminate\Broadcasting\Broadcasters\Broadcaster.php:354:    protected function retrieveChannelOptions($channel)
+vendor\laravel\framework\src\Illuminate\Bus\Queueable.php:382:    public function assertDoesntHaveChain()
+vendor\laravel\framework\src\Illuminate\Contracts\Routing\UrlRoutable.php:38:    public function resolveChildRouteBinding($childType, $value, $field);
+vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:2232:    public function resolveChildRouteBinding($childType, $value, $field)
+vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:2234:        return $this->resolveChildRouteBindingQuery($childType, $value, $field)->first();
+vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:2247:        return $this->resolveChildRouteBindingQuery($childType, $value, $field)->withTrashed()->first();
+vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:2258:    protected function resolveChildRouteBindingQuery($childType, $value, $field)
+vendor\laravel\framework\src\Illuminate\Http\Resources\DelegatesToResource.php:59:    public function resolveChildRouteBinding($childType, $value, $field = null)
+vendor\laravel\framework\src\Illuminate\Routing\ImplicitRouteBinding.php:53:                    : 'resolveChildRouteBinding';
+vendor\nette\utils\src\Utils\Html.php:685:	public function removeChildren(): void
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\LogToReportMigration.php:51:        $logNode->parentNode->removeChild($logNode);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\MoveCoverageDirectoriesToSource.php:66:        $coverage->parentNode->removeChild($coverage);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\MoveWhitelistExcludesToCoverage.php:70:            $whitelist->removeChild($excludeNode);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveEmptyFilter.php:32:            $whitelist->parentNode->removeChild($whitelist);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveEmptyFilter.php:39:            $filter->parentNode->removeChild($filter);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveListeners.php:30:        $node->parentNode->removeChild($node);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveLoggingElements.php:42:        $node->parentNode->removeChild($node);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveLoggingElements.php:57:        $node->parentNode->removeChild($node);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveLogTypes.php:37:                    $logging->removeChild($logNode);
+vendor\phpunit\phpunit\src\TextUI\Configuration\Xml\Migration\Migrations\RemoveTestDoxGroupsElement.php:30:        $node->parentNode->removeChild($node);
+vendor\psy\psysh\src\Readline\Hoa\ProtocolNode.php:170:                    $this->_resolveChoice($this[$next]->reach(), $accumulator);
+vendor\psy\psysh\src\Readline\Hoa\ProtocolNode.php:181:            $this->_resolveChoice($tnext->reach(), $accumulator);
+vendor\psy\psysh\src\Readline\Hoa\ProtocolNode.php:186:        $this->_resolveChoice($this->reach($path), $accumulator);
+vendor\psy\psysh\src\Readline\Hoa\ProtocolNode.php:194:    protected function _resolveChoice($reach, &$accumulator)
+vendor\psy\psysh\src\Readline\Interactive\HistorySearch.php:149:            $this->removeChar();
+vendor\psy\psysh\src\Readline\Interactive\HistorySearch.php:253:    private function removeChar(): void
+vendor\tijsverkoyen\css-to-inline-styles\src\CssToInlineStyles.php:148:        $document->removeChild($htmlElement);
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:818:                            $fiveChars = $matches[0][$keyTmp + 0] . $matches[0][$keyTmp + 1] . $matches[0][$keyTmp + 2] . $matches[0][$keyTmp + 3] . $matches[0][$keyTmp + 4];
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:820:                            $fiveChars = null;
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:823:                            $fiveChars
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:825:                            !isset($charDone[$fiveChars])
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:827:                            isset($REPLACE_HELPER_CACHE[$cacheKey][$fiveChars])
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:829:                            \strpos($str, $fiveChars) !== false
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:832:                            //\var_dump($str, $fiveChars, $REPLACE_HELPER_CACHE[$cacheKey][$fiveChars]);
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:834:                            $charDone[$fiveChars] = true;
+vendor\voku\portable-ascii\src\voku\helper\ASCII.php:835:                            $str = \str_replace($fiveChars, $REPLACE_HELPER_CACHE[$cacheKey][$fiveChars], $str);
