@@ -1,0 +1,111 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bengkel_app:latest
+    container_name: bengkel_app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      APP_ENV: production
+      APP_DEBUG: 'false'
+      APP_URL: http://localhost
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: '3306'
+      DB_DATABASE: laravel
+      DB_USERNAME: laravel
+      DB_PASSWORD: secret
+      MAIL_MAILER: smtp
+      MAIL_HOST: mailhog
+      MAIL_PORT: '1025'
+      QUEUE_CONNECTION: database
+      REDIS_HOST: redis
+      MIDTRANS_IS_PRODUCTION: 'false'
+    working_dir: /var/www/html
+    depends_on:
+      - db
+      - redis
+      - mailhog
+    volumes:
+      - app_source:/var/www/html
+      - app_storage:/var/www/html/storage
+      - app_public_storage:/var/www/html/public/storage
+    command: ["php-fpm"]
+
+  web:
+    image: nginx:stable-alpine
+    container_name: bengkel_nginx
+    restart: unless-stopped
+    depends_on:
+      - app
+    ports:
+      - '8080:80'
+    volumes:
+      - app_source:/var/www/html:ro
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    environment:
+      - NGINX_HOST=localhost
+
+  queue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bengkel_queue:latest
+    container_name: bengkel_queue
+    restart: unless-stopped
+    env_file:
+      - .env
+    working_dir: /var/www/html
+    depends_on:
+      - app
+      - db
+      - redis
+      - mailhog
+    volumes:
+      - app_source:/var/www/html
+      - app_storage:/var/www/html/storage
+      - app_public_storage:/var/www/html/public/storage
+    command: ["php", "artisan", "queue:work", "--sleep=3", "--tries=3", "--timeout=90"]
+
+  db:
+    image: mysql:8.0
+    container_name: bengkel_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+      TZ: Asia/Jakarta
+    ports:
+      - '3306:3306'
+    volumes:
+      - db_data:/var/lib/mysql
+
+  redis:
+    image: redis:7-alpine
+    container_name: bengkel_redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: bengkel_mailhog
+    restart: unless-stopped
+    ports:
+      - '8025:8025'
+
+volumes:
+  app_source:
+  app_storage:
+  app_public_storage:
+  db_data:
+  redis_data:

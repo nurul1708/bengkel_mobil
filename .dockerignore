@@ -1,0 +1,15 @@
+vendor
+node_modules
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+.git
+.gitignore
+.env
+.env.*
+storage/logs
+storage/framework/cache/data
+storage/framework/sessions
+storage/framework/views
+public/storage
+docker/nginx/default.conf
